@@ -3,7 +3,7 @@ export type NavItem = { label: string; href: string }
 export const headerNav: NavItem[] = [
   { label: 'How it works', href: '#how-it-works' },
   { label: 'Get started',  href: '#get-started' },
-  { label: 'Applications', href: '#applications' },
+  { label: 'Implementations', href: '#implementations' },
   { label: 'Contribute',   href: '#contribute' },
 ]
 
@@ -12,7 +12,7 @@ export const footerSections: NavItem[] = [
   { label: 'What OpenTwin is',  href: '#positioning' },
   { label: 'How it works',      href: '#how-it-works' },
   { label: 'Get started',       href: '#get-started' },
-  { label: 'Applications',      href: '#applications' },
+  { label: 'Implementations',   href: '#implementations' },
   { label: 'Contribute',        href: '#contribute' },
   { label: 'About',             href: '#about' },
 ]

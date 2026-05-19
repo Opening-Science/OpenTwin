@@ -7,8 +7,6 @@ import { getStarted } from '~/data/sections'
     <div class="grid grid-cols-1 gap-40 lg:grid-cols-12 lg:gap-40">
       <div class="space-y-24 lg:col-span-5">
         <UiEyebrow>{{ getStarted.eyebrow }}</UiEyebrow>
-        <h2 class="text-3xl text-black lg:text-4xl">{{ getStarted.title }}</h2>
-        <p class="text-xl text-cream-darker">{{ getStarted.intro }}</p>
         <div class="pt-10">
           <UiButton
             :href="getStarted.cta.href"
@@ -18,6 +16,7 @@ import { getStarted } from '~/data/sections'
             {{ getStarted.cta.label }}
           </UiButton>
         </div>
+        <p class="text-xl text-cream-darker">{{ getStarted.intro }}</p>
       </div>
 
       <ol class="space-y-16 lg:col-span-6 lg:col-start-7 lg:space-y-20">

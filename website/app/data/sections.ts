@@ -16,11 +16,7 @@ export const hero = {
   title: site.name,
   tagline: site.tagline,
   body: site.description,
-  ctas: [
-    { label: 'Start building',       href: '#get-started',  variant: 'primary'   },
-    { label: 'Explore applications', href: '#applications', variant: 'secondary' },
-    { label: 'View on GitHub',       href: site.repoUrl,    variant: 'tertiary', external: true },
-  ] satisfies Cta[],
+  ctas: [] satisfies Cta[],
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -86,8 +82,7 @@ export const howItWorks = {
 export const getStarted = {
   id: 'get-started',
   eyebrow: 'Get started',
-  title: 'Get started',
-  intro: 'Start by exploring the OpenTwin ecosystem and bringing your first digital twin to life.',
+  intro: 'Explore the OpenTwin ecosystem and bring your first digital twin to life.',
   steps: [
     'Define your data interfaces',
     'Run a reference pipeline',
@@ -110,10 +105,10 @@ export type Application = {
 }
 
 export const applications = {
-  id: 'applications',
-  eyebrow: 'Applications',
+  id: 'implementations',
+  eyebrow: 'Implementations',
   title: 'Digital twins in action',
-  intro: 'OpenTwin enables validated digital twin applications across research and clinical environments.',
+  intro: 'OpenTwin enables validated digital twin implementations across research and clinical environments.',
   items: [
     {
       title: 'VuseXR',
@@ -145,7 +140,6 @@ export const contribute = {
   title: 'Contribute to OpenTwin',
   intro: 'OpenTwin is an open standard developed collaboratively.',
   body: 'Contribute to standards, pipelines, and validation methods.',
-  repoLinkLabel: 'Explore the OpenTwin repository',
   cta: { label: 'View on GitHub', href: site.repoUrl, variant: 'primary', external: true } satisfies Cta,
   // TBD: whether to embed a live GitHub activity module (commits/issues/contributors feed).
   showGithubLiveModule: false,

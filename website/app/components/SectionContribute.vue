@@ -18,14 +18,6 @@ import { contribute } from '~/data/sections'
           >
             {{ contribute.cta.label }}
           </UiButton>
-          <a
-            :href="contribute.cta.href"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="font-mono text-base text-cream-darker transition-colors hover:text-black"
-          >
-            ↗ {{ contribute.repoLinkLabel }}
-          </a>
         </div>
       </div>
 

@@ -19,7 +19,7 @@ import { positioning } from '~/data/sections'
             <p class="font-mono text-xl font-bold tracking-[2%] uppercase text-cream-darker lg:text-sm">
               {{ row.isNot }}
             </p>
-            <p class="text-2xl text-black lg:text-3xl">
+            <p class="text-xl text-black lg:text-2xl">
               <span class="text-cream-dark">→</span> {{ row.is }}
             </p>
           </li>

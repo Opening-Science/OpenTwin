@@ -16,7 +16,7 @@ export const site = {
     },
     uid: 'CHE-317.959.183',
     email: 'office@opening.science',
-    board: ['Mihai-Valeriu Alisie (President)', 'David Martin Kalberer', 'Herbert Sterchi'],
+    board: ['Mihai-Valeriu Alisie', 'David Martin Kalberer', 'Herbert Sterchi'],
     auditor: 'Fidura Treuhand AG',
     supervisor: 'Eidgenössische Stiftungsaufsicht ESA, Bern',
   },
