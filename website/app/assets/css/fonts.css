@@ -1,45 +1,45 @@
-/* Self-hosted woff2 — same files & filenames as opening.science.
-   Paths are root-relative; they resolve from /fonts/ under public/. */
+/* Self-hosted woff2 — bundled through Vite so URLs resolve correctly under
+   any baseURL (e.g. /OpenTwin/ on GitHub Pages). */
 
 /* ── Selecta (Lineto) ─────────────────────────────────────────────── */
 @font-face {
   font-family: 'Selecta';
-  src: url('/fonts/Selecta-Regular.woff2') format('woff2');
+  src: url('../fonts/Selecta-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Selecta';
-  src: url('/fonts/Selecta-Italic.woff2') format('woff2');
+  src: url('../fonts/Selecta-Italic.woff2') format('woff2');
   font-weight: 400;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: 'Selecta';
-  src: url('/fonts/Selecta-Medium.woff2') format('woff2');
+  src: url('../fonts/Selecta-Medium.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Selecta';
-  src: url('/fonts/Selecta-MediumItalic.woff2') format('woff2');
+  src: url('../fonts/Selecta-MediumItalic.woff2') format('woff2');
   font-weight: 500;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: 'Selecta';
-  src: url('/fonts/Selecta-Bold.woff2') format('woff2');
+  src: url('../fonts/Selecta-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Selecta';
-  src: url('/fonts/Selecta-BoldItalic.woff2') format('woff2');
+  src: url('../fonts/Selecta-BoldItalic.woff2') format('woff2');
   font-weight: 700;
   font-style: italic;
   font-display: swap;
@@ -48,28 +48,28 @@
 /* ── ABC Diatype Semi Mono (Dinamo) ───────────────────────────────── */
 @font-face {
   font-family: 'ABCDiatypeSemiMono';
-  src: url('/fonts/ABCDiatypeSemiMono-Regular.woff2') format('woff2');
+  src: url('../fonts/ABCDiatypeSemiMono-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'ABCDiatypeSemiMono';
-  src: url('/fonts/ABCDiatypeSemiMono-RegularItalic.woff2') format('woff2');
+  src: url('../fonts/ABCDiatypeSemiMono-RegularItalic.woff2') format('woff2');
   font-weight: 400;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: 'ABCDiatypeSemiMono';
-  src: url('/fonts/ABCDiatypeSemiMono-Bold.woff2') format('woff2');
+  src: url('../fonts/ABCDiatypeSemiMono-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'ABCDiatypeSemiMono';
-  src: url('/fonts/ABCDiatypeSemiMono-BoldItalic.woff2') format('woff2');
+  src: url('../fonts/ABCDiatypeSemiMono-BoldItalic.woff2') format('woff2');
   font-weight: 700;
   font-style: italic;
   font-display: swap;
