@@ -35,7 +35,7 @@ const f = site.foundation
       <p class="text-xl text-cream-darker">
         The Website provides information about the {{ site.name }} project — an open
         initiative for standards, protocols, and reference pipelines for digital twins
-        in health and research — and about the Foundation's broader open-science work.
+        in health and research — and about the Foundation's broader Open Science work.
         It does not constitute legal, tax, financial, investment, scientific, or medical
         advice. No information should be relied upon without independent professional
         verification.
