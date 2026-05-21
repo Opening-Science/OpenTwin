@@ -11,7 +11,7 @@ const year = new Date().getFullYear()
 </script>
 
 <template>
-  <footer class="mt-100 lg:mt-250">
+  <footer class="mt-60 lg:mt-120">
     <div class="container-main pt-30 pb-30 lg:pb-40">
       <div class="flex flex-col gap-80 lg:grid lg:grid-cols-12 lg:gap-40">
         <!-- Logo + tagline (desktop only) -->
