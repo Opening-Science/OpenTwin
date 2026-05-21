@@ -18,7 +18,7 @@ const year = new Date().getFullYear()
         <div class="hidden flex-col space-y-80 lg:col-span-6 lg:flex lg:min-h-400 lg:space-y-70">
           <NuxtLink to="/" :aria-label="site.name">
             <div class="flex items-center gap-8">
-              <div aria-hidden="true" class="h-40 w-40 shrink-0 rounded-full bg-red" />
+              <UiOsfMark variant="duo" class="h-40 w-40 shrink-0 text-red" />
               <span class="flex flex-col text-1xl leading-none font-medium">
                 <span class="text-black">Open</span>
                 <span class="text-cream-dark">Twin</span>
@@ -27,7 +27,7 @@ const year = new Date().getFullYear()
           </NuxtLink>
           <p class="w-3/5 text-4xl">
             Build and validate human digital twins on
-            <span class="text-red">open standards</span>.
+            <span class="text-red">open standards</span>
           </p>
         </div>
 

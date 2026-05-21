@@ -11,7 +11,7 @@ import { hero } from '~/data/sections'
         </h1>
         <p class="max-w-700 text-3xl text-black lg:-translate-y-50">
           Build and validate human digital twins on
-          <span class="text-red">open standards</span> and infrastructure.
+          <span class="text-red">open standards</span>
         </p>
         <p class="max-w-700 text-xl text-cream-darker lg:-translate-y-30">
           {{ hero.body }}

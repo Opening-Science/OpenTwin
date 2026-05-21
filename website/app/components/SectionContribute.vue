@@ -7,7 +7,6 @@ import { contribute } from '~/data/sections'
     <div class="grid grid-cols-1 gap-40 lg:grid-cols-12 lg:gap-40">
       <div class="space-y-24 lg:col-span-7">
         <UiEyebrow>{{ contribute.eyebrow }}</UiEyebrow>
-        <h2 class="text-3xl text-black lg:text-4xl">{{ contribute.title }}</h2>
         <p class="text-2xl text-black lg:text-3xl">{{ contribute.intro }}</p>
         <p class="text-xl text-cream-darker">{{ contribute.body }}</p>
         <div class="flex flex-wrap items-center gap-20 pt-10">

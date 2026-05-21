@@ -21,10 +21,7 @@ function closeMenu() {
     <div class="container-main flex h-full items-center justify-between">
       <NuxtLink to="/" class="shrink-0" :aria-label="site.name">
         <div class="flex items-center gap-8">
-          <div
-            aria-hidden="true"
-            class="h-32 w-32 shrink-0 rounded-full bg-red lg:h-40 lg:w-40"
-          />
+          <UiOsfMark variant="duo" class="h-32 w-32 shrink-0 text-red lg:h-40 lg:w-40" />
           <span class="flex flex-col text-base leading-none font-medium lg:text-1xl">
             <span class="text-black">Open</span>
             <span class="text-cream-dark">Twin</span>
