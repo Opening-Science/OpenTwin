@@ -138,7 +138,7 @@ export const contribute = {
   id: 'contribute',
   eyebrow: 'Contribute',
   title: 'Contribute to OpenTwin',
-  intro: 'OpenTwin is an open standard developed collaboratively.',
+  intro: 'OpenTwin is developed openly and collaboratively.',
   body: 'Contribute to standards, pipelines, and validation methods.',
   cta: { label: 'View on GitHub', href: site.repoUrl, variant: 'primary', external: true } satisfies Cta,
   // TBD: whether to embed a live GitHub activity module (commits/issues/contributors feed).

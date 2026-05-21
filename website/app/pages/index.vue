@@ -8,7 +8,7 @@ useHead({
 </script>
 
 <template>
-  <article class="space-y-80 lg:space-y-140">
+  <article class="space-y-60 lg:space-y-100">
     <SectionHero />
     <SectionProblem />
     <SectionPositioning />
